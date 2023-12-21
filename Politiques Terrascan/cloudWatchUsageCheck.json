@@ -1,0 +1,18 @@
+{
+    "name": "cloudWatchUsageCheck",
+    "file": "cloudWatchUsageCheck.rego",
+    "policy_type": "aws",
+    "resource_type": "aws_cloudwatch_log_group",
+    "template_args": {
+        "name": "cloudWatchUsageCheck",
+        "prefix": ""
+    },
+    "severity": "MEDIUM",
+    "description": "Verifica l'ús de CloudWatch a través dels grups de logs",
+    "category": "Monitoring",
+    "id": "MMA_AWS_0003",
+    "version": 1
+}
+
+
+

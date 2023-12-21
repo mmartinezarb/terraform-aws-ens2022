@@ -1,0 +1,19 @@
+{
+    "name": "cloudTrailUsageCheck",
+    "file": "cloudTrailUsageCheck.rego",
+    "policy_type": "aws",
+    "resource_type": "aws_cloudtrail",
+    "template_args": {
+        "name": "cloudTrailUsageCheck",
+        "prefix": ""
+    },
+    "severity": "MEDIUM",
+    "description": "Verifica l'ús de CloudTrail per al registre d'activitat de l'API",
+    "category": "Compliance",
+    "id": "MMA_AWS_0004",
+    "version": 1
+}
+
+
+
+

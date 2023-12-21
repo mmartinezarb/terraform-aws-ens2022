@@ -1,0 +1,16 @@
+{
+    "name": "iamGroupPolicyCheck",
+    "file": "iamGroupPolicyCheck.rego",
+    "policy_type": "aws",
+    "resource_type": "aws_iam_group",
+    "template_args": {
+        "name": "iamGroupPolicyCheck",
+        "prefix": ""
+    },
+    "severity": "HIGH",
+    "description": "Grups d'usuaris IAM sense polítiques assignades",
+    "category": "Identity and Access Management",
+    "id": "MMA_AWS_0002",
+    "version": 1
+}
+
