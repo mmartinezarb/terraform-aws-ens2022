@@ -453,7 +453,6 @@ resource "aws_cloudwatch_dashboard" "Panell_ens_2022" {
           title: "Troballes VPC, requisits ENS-2022"
         }
       },
-
       # Widget de log per a fallades generals amb un gràfic de barres
       {
         type: "log",
@@ -467,7 +466,6 @@ resource "aws_cloudwatch_dashboard" "Panell_ens_2022" {
           title: "Troballes FAIL, requisits ENS-2022 (Gràfic de barres)"
        }
       },
-
       # Widget de log per a fallades IAM específiques
       {
         type: "log",
