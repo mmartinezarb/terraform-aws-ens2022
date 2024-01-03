@@ -1,9 +1,9 @@
 # terraform-aws-ens2022
-Infraestructura AWS gestionada per Terraform dissenyada per complir amb els estàndards de seguretat de l'Esquema Nacional de Seguretat (ENS) 2022
+Infraestructura AWS gestionada per Terraform dissenyada per complir amb els estàndards de seguretat de l'Esquema Nacional de Seguridad (ENS) 2022
 
 # Terraform AWS ENS2022
 
-Aquest repositori conté configuracions de Terraform per desplegar una infraestructura segura a AWS, conforme amb els requisits de l'Esquema Nacional de Seguretat (ENS) de 2022. Inclou la creació de xarxes VPC, subxarxes, i la configuració de serveis i instàncies EC2, amb un enfocament en la seguretat i millors pràctiques.
+Aquest repositori conté configuracions de Terraform per desplegar una infraestructura segura a AWS, conforme amb els requisits de l'Esquema Nacional de Seguridad (ENS) de 2022. Inclou la creació de xarxes VPC, subxarxes, i la configuració de serveis i instàncies EC2, amb un enfocament en la seguretat i millors pràctiques.
 
 ## Requeriments
 
