@@ -487,7 +487,7 @@ resource "aws_cloudwatch_dashboard" "Panell_ens_2022" {
         width: 24, 
         height: 6, 
         properties: {
-          query: "SOURCE '${aws_cloudwatch_log_group.prowler_log_group.name}' | fields @timestamp, @message | parse @message '{\"PROVIDER\":*}' as jsonMessage | stats count() by bin(1h) as hourlyBin | sort hourlyBin desc | limit 2",
+          query: "SOURCE '${aws_cloudwatch_log_group.prowler_log_group.name}' | fields @timestamp, @message, STATUS | parse @message '{\"PROVIDER\":*}' as jsonMessage | filter STATUS = 'FAIL' | stats count() by bin(1h) as hourlyBin | sort hourlyBin desc | limit 2",
           view: "bar",
          title: "Comparació troballes dos últims registres"
         }
