@@ -163,7 +163,7 @@ resource "aws_security_group" "sg_ciutadans" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["84.78.252.65/32"] #ip pública de l'usuari de seguretat
+    cidr_blocks = ["92.178.237.113/32"] #ip pública de l'usuari de seguretat
   }
    
    egress {
@@ -204,7 +204,7 @@ resource "aws_security_group" "sg_funcionaris" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["84.78.252.65/32"] #ip pública de l'usuari de seguretat
+    cidr_blocks = ["92.178.237.113/32"] #ip pública de l'usuari de seguretat
   }
    
    egress {
@@ -224,7 +224,7 @@ resource "aws_security_group" "sg_seguretat" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["84.78.252.65/32"]  #ip pública de l'usuari de seguretat
+    cidr_blocks = ["92.178.237.113/32"]  #ip pública de l'usuari de seguretat
   }
   tags = {
     Name = "SG Seguretat"
